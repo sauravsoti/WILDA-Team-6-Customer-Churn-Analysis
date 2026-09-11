@@ -1,0 +1,14 @@
+Training/Test Split Summary
+===========================
+Total records: 7043
+Training records: 5634 (80.0%)
+Testing records: 1409 (20.0%)
+Random state: 42
+Stratification: Churn target
+
+Overall Churn=No (0): 5174
+Overall Churn=Yes (1): 1869
+Train Churn=No (0): 4139
+Train Churn=Yes (1): 1495
+Test Churn=No (0): 1035
+Test Churn=Yes (1): 374

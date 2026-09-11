@@ -1,0 +1,29 @@
+WILDA Team 6 - Stage 2 Data Preparation Validation
+====================================================
+Status: PASSED
+
+Source dataset: 7,043 records, 10 columns
+Missing values in source: 0
+Exact duplicate-looking rows in source: 302 (retained; no customer ID available)
+
+Output row counts:
+  customer_churn_preprocessed.csv: 7,043
+  X_train.csv: 5,634
+  X_test.csv: 1,409
+  y_train.csv: 5,634
+  y_test.csv: 1,409
+
+Transformed predictor columns: 16
+Train/test columns identical: YES
+All output values finite/nonblank: YES
+SeniorCitizen retained as binary 0/1: YES
+Scaled tenure training mean/std: 0.000000000000 / 1.000000000000
+Scaled MonthlyCharges training mean/std: 0.000000000000 / 1.000000000000
+
+Stratified target composition:
+  Train: Churn No=4,139; Yes=1,495
+  Test:  Churn No=1,035; Yes=374
+
+Notebook execution: PASSED
+Python script execution: PASSED
+PDF render inspection: PASSED
