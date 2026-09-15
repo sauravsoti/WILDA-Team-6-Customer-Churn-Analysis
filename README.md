@@ -21,5 +21,4 @@ This repository contains the completed Stage 2 deliverables.
 - Reproducible clustering notebook/script
 - Clustering analysis report
 
-### Submission reminder
-Submit the repository link and the separate 10-15 minute video demonstration as required by the assignment instructions.
+  
